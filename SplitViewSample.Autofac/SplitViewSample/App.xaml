@@ -1,0 +1,15 @@
+﻿<prismAutofac:PrismAutofacApplication x:Class="SplitViewSample.App"
+                                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                                  xmlns:local="using:SplitViewSample"
+                                  xmlns:prismAutofac="using:Prism.Autofac.Windows"
+                                  RequestedTheme="Light">
+
+    <prismAutofac:PrismAutofacApplication.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ms-appx:///Themes/SplitViewSampleStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </prismAutofac:PrismAutofacApplication.Resources>
+</prismAutofac:PrismAutofacApplication>
